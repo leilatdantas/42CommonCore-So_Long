@@ -6,7 +6,7 @@
 #    By: lebarbos <lebarbos@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/08/16 18:00:33 by lebarbos          #+#    #+#              #
-#    Updated: 2023/09/16 18:24:55 by lebarbos         ###   ########.fr        #
+#    Updated: 2023/09/16 19:41:09 by lebarbos         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -70,16 +70,16 @@ TARGET_BONUS	= $(addprefix $(OBJ_PATH_BONUS)/, $(OBJS_BONUS))
 all: $(NAME)
 
 $(NAME): $(OBJ_PATH) $(TARGET)
-	echo "$(MAGENTA)🤔 Compiling:$(RESET) $(GREEN)libft/*$(RESET)"
+	echo "$(MAGENTA)Compiling:$(RESET) $(GREEN)libft/*$(RESET)"
 	make -C $(LIBFT_PATH)
 	
-	echo "$(MAGENTA)🤔 Compiling:$(RESET) $(GREEN)get_next_line/*$(RESET)"
+	echo "$(MAGENTA)Compiling:$(RESET) $(GREEN)get_next_line/*$(RESET)"
 	make -C $(GNL_PATH)
 	
-	echo "$(MAGENTA)🤔 Compiling:$(RESET) $(GREEN)ft_printf/*$(RESET)"
+	echo "$(MAGENTA)Compiling:$(RESET) $(GREEN)ft_printf/*$(RESET)"
 	make -C $(PRINTF_PATH)
 
-	echo "$(MAGENTA)🤔 Compiling:$(RESET) $(GREEN)mlx/*$(RESET)"
+	echo "$(MAGENTA)Compiling:$(RESET) $(GREEN)mlx/*$(RESET)"
 	make -C $(MLX_PATH) 2> /dev/null
 	
 	echo "$(CYAN)🔗 Linking: $(RESET) $(CFLAGS) $(GREEN)*$(RESET)"
@@ -88,7 +88,7 @@ $(NAME): $(OBJ_PATH) $(TARGET)
 	echo "$(GREEN)🎉 YAY! Compilation is done!$(RESET)"
 	
 $(OBJ_PATH)/%.o : $(SRCS)/%.c 
-	echo "$(MAGENTA)🤔 Compiling:$(RESET) $(CFLAGS) $(GREEN)$<$(RESET)"
+	echo "$(MAGENTA)Compiling:$(RESET) $(CFLAGS) $(GREEN)$<$(RESET)"
 	$(CC) $(CFLAGS) -c $^ -o $@ -I $(DEPS)
 
 $(OBJ_PATH) :
@@ -97,16 +97,16 @@ $(OBJ_PATH) :
 bonus : $(NAME_BONUS)
 
 $(NAME_BONUS): $(OBJ_PATH_BONUS) $(TARGET_BONUS)
-	echo "$(MAGENTA)🤔 Compiling BONUS:$(RESET) $(GREEN)libft/*$(RESET)"
+	echo "$(MAGENTA)Compiling BONUS:$(RESET) $(GREEN)libft/*$(RESET)"
 	make -C $(LIBFT_PATH)
 	
-	echo "$(MAGENTA)🤔 Compiling BONUS:$(RESET) $(GREEN)get_next_line/*$(RESET)"
+	echo "$(MAGENTA)Compiling BONUS:$(RESET) $(GREEN)get_next_line/*$(RESET)"
 	make -C $(GNL_PATH)
 	
-	echo "$(MAGENTA)🤔 Compiling BONUS:$(RESET) $(GREEN)ft_printf/*$(RESET)"
+	echo "$(MAGENTA)Compiling BONUS:$(RESET) $(GREEN)ft_printf/*$(RESET)"
 	make -C $(PRINTF_PATH)
 
-	echo "$(MAGENTA)🤔 Compiling BONUS:$(RESET) $(GREEN)mlx/*$(RESET)"
+	echo "$(MAGENTA)Compiling BONUS:$(RESET) $(GREEN)mlx/*$(RESET)"
 	make -C $(MLX_PATH) 2> /dev/null
 	
 	echo "$(CYAN)🔗 Linking: $(RESET) $(CFLAGS) $(GREEN)*$(RESET)"
@@ -115,7 +115,7 @@ $(NAME_BONUS): $(OBJ_PATH_BONUS) $(TARGET_BONUS)
 	echo "$(GREEN)🎉 YAY! BONUS is done!$(RESET)"
 	
 $(OBJ_PATH_BONUS)/%.o : $(SRCS_BONUS)/%.c 
-	echo "$(MAGENTA)🤔 Compiling BONUS:$(RESET) $(CFLAGS) $(GREEN)$<$(RESET)"
+	echo "$(MAGENTA)Compiling BONUS:$(RESET) $(CFLAGS) $(GREEN)$<$(RESET)"
 	$(CC) $(CFLAGS) -c $^ -o $@ -I $(DEPS)
 
 $(OBJ_PATH_BONUS) :

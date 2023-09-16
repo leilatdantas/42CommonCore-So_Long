@@ -6,7 +6,7 @@
 /*   By: lebarbos <lebarbos@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/16 15:43:19 by lebarbos          #+#    #+#             */
-/*   Updated: 2023/09/16 19:07:57 by lebarbos         ###   ########.fr       */
+/*   Updated: 2023/09/16 19:48:25 by lebarbos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,10 +71,6 @@ void	load_images(t_game *game)
 		exit_message(game, "Error in allocating images.\n");
 	game->image[F1].img_ptr = mlx_xpm_file_to_image(game->mlx, IF1,
 			&game->image[F1].w, &game->image[F1].h);
-	// game->image[P1].img_ptr = mlx_xpm_file_to_image(game->mlx, IP1,
-	// 		&game->image[P1].w, &game->image[P1].h);
-	// game->image[C1].img_ptr = mlx_xpm_file_to_image(game->mlx, IC1,
-	// 		&game->image[C1].w, &game->image[C1].h);
 	game->image[E1].img_ptr = mlx_xpm_file_to_image(game->mlx, IE1,
 			&game->image[E1].w, &game->image[E1].h);
 	game->image[E2].img_ptr = mlx_xpm_file_to_image(game->mlx, IE2,
