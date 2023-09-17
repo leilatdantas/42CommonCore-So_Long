@@ -6,7 +6,7 @@
 /*   By: lebarbos <lebarbos@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/18 16:14:56 by lebarbos          #+#    #+#             */
-/*   Updated: 2023/09/16 14:00:33 by lebarbos         ###   ########.fr       */
+/*   Updated: 2023/09/17 12:24:06 by lebarbos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	destroy_map(t_map *map)
 {
+	if (!map)
+		return ;
 	if (map->map_bytes)
 		map_matrix_delete(map->map_bytes);
 	free(map);
@@ -40,19 +42,9 @@ void	destroy_game(t_game *game)
 		destroy_map(game->map);
 	if (game->image)
 		destroy_images(game);
-}
-
-void	exit_message(t_game *game, char *message)
-{
-	if (game)
-		destroy_game(game);
 	if (game->window)
 		mlx_destroy_window(game->mlx, game->window);
-#ifdef __linux__
 	if (game->mlx)
 		mlx_destroy_display(game->mlx);
-#endif
 	free(game->mlx);
-	ft_printf(message);
-	exit(1);
 }

@@ -6,7 +6,7 @@
 /*   By: lebarbos <lebarbos@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/15 18:49:09 by lebarbos          #+#    #+#             */
-/*   Updated: 2023/09/16 19:33:32 by lebarbos         ###   ########.fr       */
+/*   Updated: 2023/09/17 12:24:56 by lebarbos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,6 +65,7 @@ typedef enum e_key
 	S = 1,
 	D = 2,
 	W = 13,
+	Q = 12,
 	UP = 126,
 	DOWN = 125,
 	RIGHT = 124,
@@ -86,6 +87,7 @@ typedef enum e_key
 	S = 115,
 	D = 100,
 	W = 119,
+	Q = 113,
 	UP = 65362,
 	DOWN = 65364,
 	RIGHT = 65363,

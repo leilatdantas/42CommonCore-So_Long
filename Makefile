@@ -6,7 +6,7 @@
 #    By: lebarbos <lebarbos@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/08/16 18:00:33 by lebarbos          #+#    #+#              #
-#    Updated: 2023/09/16 19:41:09 by lebarbos         ###   ########.fr        #
+#    Updated: 2023/09/17 12:10:07 by lebarbos         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,7 +27,7 @@ AR = ar -rcs
 UNAME = $(shell uname)
 
 #FLAGS
-CFLAGS	= -Wall -Wextra -Werror -g -fsanitize=address
+CFLAGS	= -Wall -Wextra -Werror -g #-fsanitize=address
 LFLAGS	= -L ./libft -lft -L ./get_next_line -lgnl -L ./ft_printf -lftprintf -I $(DEPS)
 ifeq ($(UNAME), Darwin) 
 	CC = cc

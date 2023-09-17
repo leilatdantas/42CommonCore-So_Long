@@ -6,7 +6,7 @@
 /*   By: lebarbos <lebarbos@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/23 19:05:21 by lebarbos          #+#    #+#             */
-/*   Updated: 2023/09/16 19:46:20 by lebarbos         ###   ########.fr       */
+/*   Updated: 2023/09/17 12:08:50 by lebarbos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,10 @@
 # define NUM_ENEMY_FRAMES	8
 # define NUM_PLAYER_VERSIONS 4
 
-# define CALLS_PER_FRAME_PLAYER		25
-# define CALLS_PER_FRAME_MELON		7
-# define CALLS_PER_FRAME_ENEMIES	20
-# define MOVE_CALLS					70
+# define CALLS_PER_FRAME_PLAYER		2500
+# define CALLS_PER_FRAME_MELON		700
+# define CALLS_PER_FRAME_ENEMIES	2000
+# define MOVE_CALLS					8000
 
 # define PLAYER_RIGHT_PATH	"./images/bonus/player/right/player_"
 # define PLAYER_UP_PATH		"./images/bonus/player/up/player_"
