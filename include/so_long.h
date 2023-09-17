@@ -6,7 +6,7 @@
 /*   By: lebarbos <lebarbos@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/15 18:49:09 by lebarbos          #+#    #+#             */
-/*   Updated: 2023/09/17 12:30:48 by lebarbos         ###   ########.fr       */
+/*   Updated: 2023/09/17 12:32:01 by lebarbos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,6 @@
 # include "get_next_line.h"
 # include "get_next_line_bonus.h"
 # include "ft_printf.h"
-# include <stdbool.h>
-// # include <stdio.h>
-// # include <unistd.h>
-// # include <stdlib.h>
-// # include <fcntl.h>
 
 # define RESET	 "\033[0m"
 # define RED 	 "\033[1;31m"

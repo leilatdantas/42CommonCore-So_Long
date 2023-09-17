@@ -6,7 +6,7 @@
 /*   By: lebarbos <lebarbos@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 12:34:01 by lebarbos          #+#    #+#             */
-/*   Updated: 2023/09/17 12:29:24 by lebarbos         ###   ########.fr       */
+/*   Updated: 2023/09/17 12:32:40 by lebarbos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int	get_num_lines(t_game *game, char *map_name)
 	fd = open(map_name, O_RDONLY);
 	if (fd < 0)
 		exit_message(game, "Error in read map file.");
-	while (true)
+	while (1)
 	{
 		tmp = get_next_line(fd);
 		if (!tmp)
