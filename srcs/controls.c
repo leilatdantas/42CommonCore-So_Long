@@ -6,7 +6,7 @@
 /*   By: lebarbos <lebarbos@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/16 13:44:26 by lebarbos          #+#    #+#             */
-/*   Updated: 2023/09/17 12:26:13 by lebarbos         ###   ########.fr       */
+/*   Updated: 2023/09/17 12:28:16 by lebarbos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ void	exit_message(t_game *game, char *message)
 	if (game)
 		destroy_game(game);
 	if (game->window)
+		mlx_destroy_window(game->mlx, game->window);
 	if (game->mlx)
 		mlx_destroy_display(game->mlx);
 	free(game->mlx);

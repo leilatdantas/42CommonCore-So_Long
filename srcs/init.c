@@ -6,7 +6,7 @@
 /*   By: lebarbos <lebarbos@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 12:34:01 by lebarbos          #+#    #+#             */
-/*   Updated: 2023/09/16 19:38:54 by lebarbos         ###   ########.fr       */
+/*   Updated: 2023/09/17 12:29:24 by lebarbos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,8 +80,6 @@ t_map	*read_map(t_game *game, char *map_name)
 	close(fd);
 	return (game->map);
 }
-
-
 
 void	init_game(char *map_name)
 {

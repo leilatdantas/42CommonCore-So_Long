@@ -6,7 +6,7 @@
 /*   By: lebarbos <lebarbos@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/15 18:49:09 by lebarbos          #+#    #+#             */
-/*   Updated: 2023/09/17 12:24:56 by lebarbos         ###   ########.fr       */
+/*   Updated: 2023/09/17 12:30:48 by lebarbos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -187,6 +187,5 @@ void			floodfill(t_game *game, char **matrix, t_point cur);
 int				key_press(int keycode, t_game *game);
 void			map_components2(t_game *game);
 void			valid_map(t_game *game);
-
 
 #endif

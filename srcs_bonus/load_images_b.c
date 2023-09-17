@@ -6,7 +6,7 @@
 /*   By: lebarbos <lebarbos@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/16 15:43:19 by lebarbos          #+#    #+#             */
-/*   Updated: 2023/09/16 19:48:25 by lebarbos         ###   ########.fr       */
+/*   Updated: 2023/09/17 12:29:53 by lebarbos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ void	load_enemies_frames(t_game *g)
 }
 
 void	load_sprites(t_game *g)
-{	
+{
 	load_player_frames(g);
 	load_collectables(g);
 	load_enemies_frames(g);
