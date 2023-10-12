@@ -76,7 +76,7 @@ If you encounter any compilation issues, please follow these steps:
 
 2. **Library Version:** Double-check that you are using the correct version of the libraries required for your platform. Sometimes, library versions can differ between systems.
 
-3. **Makefile Adjustments:** Our provided Makefile is designed to work across different platforms. However, if you still encounter issues, review the Makefile and make necessary adjustments to accommodate your system.
+3. **Makefile Adjustments:** The provided Makefile is designed to work across different platforms. However, if you still encounter issues, review the Makefile and make necessary adjustments to accommodate your system.
 
 4. **Seek Support:** If the issue persists, don't hesitate to seek help from your fellow developers or instructors. The 42 community is always ready to assist and provide solutions.
 
