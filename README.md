@@ -68,7 +68,7 @@ Run the game:
 
 <a name="compatibility"></a>
 ## Cross-Platform Compatibility 🖥️ 
-We understand the importance of ensuring that the project compiles and runs smoothly on different operating systems, including Windows and Linux, even though they may have different library files.
+I understand the importance of ensuring that the project compiles and runs smoothly on different operating systems, including Windows and Linux, even though they may have different library files.
 
 If you encounter any compilation issues, please follow these steps:
 
