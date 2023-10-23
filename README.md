@@ -59,9 +59,9 @@ Run the game:
 - [MinilibX Guide](https://qst0.github.io/ft_libgfx/man_mlx.html) 
 - [MinilibX Guide](https://harm-smits.github.io/42docs/libs/minilibx) - by hsmits and jvan-sni
 - [Draw a Pollock painting with the minilibX](https://www.youtube.com/watch?v=9eAPbNUQD1Y) - by Oceano
-- [MinilibX Tutorial](https://pulgamecanica.herokuapp.com/posts/minilibx-tutorial) - by arosado
-- [MinilibX Starter Pack](https://pulgamecanica.herokuapp.com/posts/mlx-starter-pack) - by arosado
-- [MLX Animations](https://pulgamecanica.herokuapp.com/posts/mlx-animations) - by arosado
+- [MinilibX Tutorial](https://pulgamecanica.herokuapp.com/posts/minilibx-tutorial) - by arosado-
+- [MinilibX Starter Pack](https://pulgamecanica.herokuapp.com/posts/mlx-starter-pack) - by arosado-
+- [MLX Animations](https://pulgamecanica.herokuapp.com/posts/mlx-animations) - by arosado-
 - [Free Game Sprites](https://itch.io/game-assets/new-and-popular/free/tag-sprites)
 - [Sprite Editor](https://ezgif.com/sprite-cutter)
 - [PNG to XMP converter](https://anyconv.com/png-to-xpm-converter/)
