@@ -6,7 +6,7 @@
 /*   By: lebarbos <lebarbos@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/16 18:17:06 by lebarbos          #+#    #+#             */
-/*   Updated: 2024/03/27 13:09:11 by lebarbos         ###   ########.fr       */
+/*   Updated: 2024/03/27 13:11:57 by lebarbos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,7 +78,7 @@ void	destroy_game(t_game *game)
 	if (game->window)
 		mlx_destroy_window(game->mlx, game->window);
 	#ifdef __linux__
- 	if (game->mlx)
+	if (game->mlx)
  		mlx_destroy_display(game->mlx);
  	#endif
 	free(game->mlx);
